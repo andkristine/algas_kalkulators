@@ -1,0 +1,20 @@
+Kalkulators darbojas sekojoši:
+
+1. Lietotājs ar skroleri izvēlas savu mēnešalgu 
+(mazākā vērtība ir 1 un lielākā - 2000, jo līdzīgi bija Swedbank piemērā, cita iemesla tav nav);
+2. Lietotājs izvēlas, vai ir iesniegta algas grāmatiņa 
+(šobrīd saprotu, ka šim nolūkam labāk vajadzēja izmantot 'checkbox', bet man drīz jāiet gulēt. Toties esmu guvusi mācību, kā darīt nākamreiz);
+3. Lietoājs nospiež pogu "Aprēķināt" un parādās Neto alga.
+
+
+Mani komentāri:
+
+1. Tā kā, lai pēc "Aprēķināt"(Submit) pogas nospiešanas man rezultāti parādījās un uzreiz izdzēsās, nācās pogas tipu nomainīt uz "button",
+taču, lai es to varētu izmantot PHP, pogas tipam jābūt "submit", tāpēc es nevarēju uztaisīt PHP validāciju, kas pārbauda, vai kāda no izvēlnēm
+ir atzīmēta (Ir, protams, iespējas, bet man, diemžēl, drīz jāiet gulēt));
+2. Ja algas grāmatiņa nav iesniegta, manā nodokļu pasaulē, ko esmu atainojusi kodā, neto alga ir 70%, taču ja grāmatiņa ir iesniegta, persona
+tiek atbrīvota no 5 procentu nodokļu sloga, un rezultātā personas neto alga ir 75%.
+
+Vēlējos kalkulatoru izveidot naudas krāsā, taču tas sanāca latvija.lv tematikā (tā kā šobrīd ir datums starp Lāčplēša un LR proklamēšanas dienām,
+uzskatu to pat par plusu, jo patriotiski). 
+
